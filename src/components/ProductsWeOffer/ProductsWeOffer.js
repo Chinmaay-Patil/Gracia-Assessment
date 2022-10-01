@@ -1,9 +1,8 @@
 import './ProductsWeOffer.css'
 import { Heading } from '@chakra-ui/react'
-import { SimpleGrid } from '@chakra-ui/react'
-import { Box } from '@chakra-ui/react'
+
+
 import image from '../images/Door.webp'
-import { Image } from '@chakra-ui/react'
 function ProductsWeOffer() {
     return (
         <div>

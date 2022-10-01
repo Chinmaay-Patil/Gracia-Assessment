@@ -7,7 +7,7 @@ function AboutUs() {
     return (
         <div className="aboutus" >
             <div className="imageaboutus">
-                <img src={image} />
+                <img alt='abc' src={image} />
             </div>
             <div className="aboutusinfo">
                 <Heading className='Heading1' spacing={6} size='xl'>About Us</Heading>

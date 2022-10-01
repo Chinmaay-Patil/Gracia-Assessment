@@ -1,9 +1,9 @@
-import { Heading, InputLeftAddon ,InputRightAddon} from '@chakra-ui/react'
+import { Heading} from '@chakra-ui/react'
 import image from '../images/cleints.png'
-import { Input,InputGroup,InputLeftElement } from '@chakra-ui/react'
+import { Input } from '@chakra-ui/react'
 import './Clients.css'
 
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 import { useState } from 'react'
 function Clients() {
         const [subscribersList,setSubscribersList] = useState([]);
@@ -21,27 +21,27 @@ function Clients() {
             <div className='container'>
                 <div className='lefta'>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
 
@@ -49,23 +49,23 @@ function Clients() {
                 </div>
                 <div className='lefta'>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
                     <div>
-                        <img className='imageforservices' src={image} />
+                        <img  className='imageforservices' alt ='abc' src={image} />
 
                     </div>
 
