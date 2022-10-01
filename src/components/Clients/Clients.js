@@ -1,0 +1,93 @@
+import { Heading, InputLeftAddon ,InputRightAddon} from '@chakra-ui/react'
+import image from '../images/cleints.png'
+import { Input,InputGroup,InputLeftElement } from '@chakra-ui/react'
+import './Clients.css'
+
+import { Button, ButtonGroup } from '@chakra-ui/react'
+import { useState } from 'react'
+function Clients() {
+        const [subscribersList,setSubscribersList] = useState([]);
+        const [myArray, updateMyArray] = useState("");
+
+        const onClick = () => {
+            setSubscribersList([...subscribersList,myArray]);
+            console.log(subscribersList);
+        };
+    return (
+        <div>
+            <Heading className='Heading' spacing={6} size='xl'> Our Clients</Heading>
+
+            <hr className="new3" />
+            <div className='container'>
+                <div className='lefta'>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+
+
+                </div>
+                <div className='lefta'>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+                    <div>
+                        <img className='imageforservices' src={image} />
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div className='subscribers'>
+                <div className='inputforsubscribers'>
+                <Input type='email' onChange={(e)=>{
+                    updateMyArray(e.target.value);
+                    console.log(myArray)
+                }} variant='filled' placeholder='Enter Your Email' size='lg' ></Input>
+                </div>
+                <div className='submitbuttontosubscriber'>
+                <Button onClick={ onClick } colorScheme='blue'>Subscribe</Button>
+                {/* <input type="button" onClick={ onClick } value="Update" /> */}
+                </div>
+
+            </div>
+        </div>
+    )
+}
+
+
+export default Clients;

@@ -1,0 +1,31 @@
+.Heading {
+
+    text-align: center;
+
+
+    padding-top: 4%;
+    padding-bottom: 2%;
+
+}
+
+hr.new3 {
+    border: 2px solid #e31e24;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+.productdetails {
+    display: flex;
+    padding: 4%;
+    width: 50%;
+}
+p{
+    padding: 3%;
+    /* background-color: #e31e24; */
+    text-align: justify;
+}
+.productdetail1s {
+    display: flex;
+   
+}

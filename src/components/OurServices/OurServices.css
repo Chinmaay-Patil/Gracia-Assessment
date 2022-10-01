@@ -1,0 +1,70 @@
+.Heading {
+
+    text-align: center;
+
+
+    padding-top: 4%;
+    padding-bottom: 2%;
+
+}
+
+hr.new3 {
+    border: 2px solid #e31e24;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+
+}
+
+
+
+.imageforservices {
+    width: 150px;
+}
+
+.lefta {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lefta p {
+    text-align: center;
+
+}
+
+.video {
+    padding: 4%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftvideopanel p {
+    /* background-color: #e31e24; */
+    padding: 0;
+    /* text-align: justify; */
+}
+
+.leftvideopanel {
+    /* border: 1px solid red; */
+    width: 60%;
+
+
+}
+
+.videodescription {
+    /* background-color: #e31e24; */
+    text-align: justify;
+}
+
+.rightvideopanel {
+    /* border: 1px solid red; */
+    width: 30%;
+}

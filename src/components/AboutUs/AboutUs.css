@@ -1,0 +1,29 @@
+.aboutus{
+    background-color: gold;
+}
+
+.imageaboutus{
+    padding-right: 10%;
+
+}
+
+.aboutusinfo p{
+    padding-left: 0% ;
+    /* background-color: aqua; */
+    /* padding: 5%; */
+    padding-right: 5%;
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+
+}
+
+.aboutus{
+    display: flex;
+    padding: 10%;
+}
+.HRforAboutus{
+    border: 2px solid #e31e24;
+    width: 20%;
+    /* margin: auto; */
+    
+}
