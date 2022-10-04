@@ -6,10 +6,10 @@ https://thriving-sunflower-efcd65.netlify.app/
 # to run on local machine 
 ## on terminal use 
 
-#npm i 
+# npm i 
 
-##command to install dependencies then 
+## command to install dependencies then 
 
-#npm start
+# npm start
 
-##to start the react application
+## to start the react application
