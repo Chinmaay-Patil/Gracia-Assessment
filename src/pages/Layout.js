@@ -7,9 +7,11 @@ import image from "../components/images/PathFrameLogo.JPG"
 import Home from "./Home"
 import Blogs from "../pages/Blogs"
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
+import React from 'react'
+
 
 const Layout = () => {
-
+  
   return (
     <div className="Layout">
 
